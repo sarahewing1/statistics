@@ -1,0 +1,19 @@
+SDS Business Analytics Statistics Module 1 Homework
+
+mmean <- 69.1
+mstd <- 2.9
+wmean <- 63.7
+wstd <- 2.7
+
+mtopheight <- mmean + (2*mstd)
+mtopheight
+wtopheight <- wmean + (2*wstd)
+wtopheight
+
+mdist1 <- round(rnorm(1000,69.1,2.9),1)
+mdist1
+wdist1 <- round(rnorm(1000, 63.7, 2.7), 1)
+wdist1
+
+qplot(mdist1)
+qplot(wdist1)
